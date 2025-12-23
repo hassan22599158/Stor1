@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Shop Pro | Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <a class="brand" href="index.html">
+        <span class="dot"></span>
+        E-Shop Pro
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart <span class="badge" id="cart-count">0</span></a>
+        <a href="login.html" class="active">Login</a>
+        <a href="admin.html">Admin</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2 class="section-title">Sign in</h2>
+    <div class="form" style="max-width: 520px; margin: 0 auto;">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="admin@shop.com">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="123">
+      </div>
+      <button class="btn" onclick="login()">Login</button>
+      <p class="muted" style="margin-top: 10px;">Use admin@shop.com / 123 to access admin dashboard.</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
